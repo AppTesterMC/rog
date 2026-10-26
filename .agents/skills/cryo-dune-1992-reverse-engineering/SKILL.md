@@ -2,7 +2,7 @@
 name: cryo-dune-1992-reverse-engineering
 description: Reverse-engineering methodology and recovered facts for Cryo Interactive's Dune (1992) across its DOS floppy, DOS CD v3.7, Amiga, and Sega CD releases. Use when inspecting Cryo Dune binaries, data formats, clock, saves, campaign rules, or porting behavior to the Desert Frost ScummVM engine.
 metadata:
-  version: 1
+  version: 2
 ---
 
 # Cryo Dune (1992) reverse engineering
@@ -162,5 +162,10 @@ When applying this work to another classic game:
 7. Validate end-to-end with assisted playthroughs and regression checks.
 8. Leave explicit unknown lists so later passes can close them.
 
-See [references/findings.md](references/findings.md) for compact facts and
-source pointers.
+Reference files:
+
+- [references/findings.md](references/findings.md) - compact facts and source pointers.
+- [references/gameplay-rules.md](references/gameplay-rules.md) - recovered clock, flight, hiring, occupations, ecology, shipments, Harkonnens, results, and save/time encoding.
+- [references/battle-and-troops.md](references/battle-and-troops.md) - troop/location layouts, battles, espionage, worms, occupations, and binary offsets.
+- [references/speedrun-route.md](references/speedrun-route.md) - floppy speedrun transcript and route observations.
+- [references/save-compatibility.md](references/save-compatibility.md) - release save formats, markers, validation, and modern UX.
